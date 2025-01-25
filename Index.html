@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobility Aggregation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Mobility Aggregation</h1>
+        <select id="cityDropdown" onchange="updateApps()">
+            <option value="Delhi">Delhi</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Noida">Noida</option>
+        </select>
+    </header>
+
+    <main>
+        <h2>Available Mobility Apps</h2>
+        <div id="appContainer"></div>
+        <div id="triviaSection"></div>
+
+        <section id="ctaSection">
+            <h3>Stay Updated!</h3>
+            <form id="subscribeForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <header>
+      <h1 id="categoryTitle" style="display: none;"></h1>
+      <div id="appContainer" style="display: none;"></div>
+<div id="triviaSection" style="display: none;"></div>
+<div id="detailSection" style="display: none;"></div>
+  </header>
+
+  <!-- <main>
+      <div id="categoryContainer"></div>
+  </main> -->
+
+  <footer>
+      <p>&copy; 2025 Mobility Aggregation. All rights reserved.</p>
+  </footer>     
+   
+   <script src="index.js"></script>
+
+</body>
+</html>
