@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#ebeef4;
+}
+table{
+    padding: 10px;
+    margin: 20px;
+    display: block;
+    align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.mosquito {
+  display: flex;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.flashcards {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.flashcards h3 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+tr {
+  padding: 20px;
+}
+.eighth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 70px;
+ 
+  padding: 30px;
+  column-gap: 20px;
+}
+.page{
+    background: linear-gradient(
+    135deg,
+    rgba(62, 79, 233, 0.5) 0%,
+    rgba(244, 246, 250, 0.5) 90%
+  );
+}
+.mission{
+    display: flex;
+    margin: 30px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.mission-content{
+    width:50%;
+}
+.sec{
+    display: flex;
+    gap:20px;
+    padding:30px
+}
+.why-us{
+    display: flex;
+    margin: 50px;
+    padding:60px;
+    column-gap: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin: 90px 30px;
+}
+.img{
+    border-radius: 20px;
+    width: 100%;
+    height: 0px;
+    margin-top: -90px;
+    background: url('https://s3-alpha-sig.figma.com/img/693e/6516/74c05c7511d0f4f8411d4299b7905067?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Bq3ngIoSmMMdM2JdAYFFbHkZKy7-pJOhNeepiR59CmvXG9jePO6iRwDC2sxxeP2jjFdJ91hzawoREdx0Pk7-H5w9H6T0YDEVcXggPlA8G6iGnNiZMvjykl8~qm~BgRtx7z3z5PN3zhJml39op6cbWc5Nv87o2hJBQLyfwv4WkC818obsQHqKnqs-6NdzuH8FNAqBMDVVVdZIClJ~CV0Z0ppV9-B9sJjmZQA3PeXzze1ryXZEvK7a9QqwbLzKT-AhP-5lTOIxMxeSKnyAgV42KBfZXtJxifyxpp--h5EWn79Ic4MyM98vRn-ugeAB8DbRNidBUzNJqI4pzRiLYuS7YQ__');
+}
+.textt{
+    font-size: 20px;
+    row-gap: 20px;
+    text-align: justify;
+    
+}
